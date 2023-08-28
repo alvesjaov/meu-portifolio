@@ -14,7 +14,7 @@
 
 .navegacao__link,
 .navegacao__titulo {
-    font-weight: 500;
+    font-weight: 600;
     color: var(--main-color);
     text-decoration: none;
 }
