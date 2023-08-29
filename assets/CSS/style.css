@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* scrollbar-color: #711a7a #13101d;
+    scrollbar-width: thin; */
 }
 
 :root {
@@ -30,4 +32,24 @@ body {
     color: var(--font-color);
     background-color: var(--background);
     height: 100vh;
+}
+
+body::-webkit-scrollbar {
+    width: 1px;
+    /* width de toda a barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+    /* cor da área de rastreamento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* cor do botão de rolagem*/
+    border-radius: 1px;
+    /* redondeza do botão de rolagem */
+    border: 1px solid  transparent;
+    /* cria padding em torno do botão de rolagem*/
+
 }

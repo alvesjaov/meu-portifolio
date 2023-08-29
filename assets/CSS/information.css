@@ -72,12 +72,12 @@
         flex-direction: row;
         justify-content: center;
         gap: 0.5rem;
+        width: 0;
     }
 
     .link__redes {
         border: none;
         padding: 0.5rem;
-        width: 9rem;
         margin-right: 1rem;
     }
 
