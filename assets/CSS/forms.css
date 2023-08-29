@@ -1,24 +1,23 @@
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .content__titulo {
     text-align: center;
-    margin-bottom: 1rem;
     font-size: 2rem;
-    margin: 2rem 0 1rem;
+    margin: 2rem 0 1rem 0;
     color: var(--main-color);
     font-weight: 600;
+    line-height: 32px;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-items: baseline;
+    font-size: 0.875rem;
     background-color: var(--background-hover);
     padding: 1.5rem;
     margin: 1.5rem;
@@ -27,11 +26,12 @@
 }
 
 .labels {
-    margin-top: 0.4rem;
+    margin-top: 0.5rem;
+    line-height: 16px;
 }
 
 .inputs {
-    padding: 0.5rem 0.3125rem;
+    padding: 0.5rem;
     outline: none;
     border-radius: 5px;
     background-color: var(--background);
@@ -40,21 +40,25 @@
     width: 100%;
     transition: 0.3s ease;
     font-family: var(--main-font);
+    font-size: 0.875rem;
+    line-height: 14px;
 }
 
 .inputs:focus {
     border-color: var(--main-color);
 }
 
-.textnone{
+.textnone {
+    height: 25vh;
     resize: none;
 }
 
 .span-required {
     display: none;
     font-size: 0.75rem;
-    margin: 3px 0 0 1px;
+    margin: 0.4rem 0;
     color: var(--color-red);
+    line-height: 12px;
 }
 
 .botao {
@@ -63,23 +67,16 @@
     outline: none;
     border: none;
     border-radius: 5px;
-    width: 100%;
     margin-top: 1.5rem;
     color: var(--font-color);
     background-color: var(--main-color);
     font-weight: 600;
     cursor: pointer;
-    
 }
 
-
-@media(min-width: 769px){
-    .content__titulo{
-        margin: 1.5rem 0;
-    }
-
-    .formulario{
+@media(min-width: 769px) {
+    .formulario {
         width: 50vw;
     }
-    
+
 }
