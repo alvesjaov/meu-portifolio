@@ -1,8 +1,9 @@
 .content {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
+    padding: 3rem 0 0 0;
+    height: auto;
 }
 
 .content__titulo {
@@ -12,6 +13,11 @@
     color: var(--main-color);
     font-weight: 600;
     line-height: 32px;
+}
+.content__subtitulo{
+    color: var(--main-color);
+    line-height: 16px;
+    font-weight: 400;
 }
 
 .formulario {

@@ -1,7 +1,9 @@
-.sessao1 {
+#sessao1__informacoes {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0 0 0;
+    height: 70vh;
 }
 
 .minha__foto {
@@ -24,7 +26,7 @@
     line-height: 32px;
 }
 
-.sessao2 {
+.redes__socias {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,10 +53,10 @@
 }
 
 .icone__redes {
-    width: 1, 7rem;
+    fill:var(--main-color);
+    width: 1.7rem;
     height: 1.7rem;
 }
-
 
 @media(min-width:1024px) {
     .minha__foto {
@@ -63,10 +65,10 @@
 
     .meu__nome {
         margin: 0.9rem;
-        
+
     }
 
-    .sessao2 {
+    .redes__socias {
         flex-direction: row;
         justify-content: center;
         gap: 0.5rem;
