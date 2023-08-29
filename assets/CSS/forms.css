@@ -9,7 +9,7 @@
     text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
-    margin: 10% 2rem 0 2rem;
+    margin: 2rem 0 1rem;
     color: var(--main-color);
     font-weight: 600;
 }
@@ -21,9 +21,9 @@
     align-items: baseline;
     background-color: var(--background-hover);
     padding: 2rem 2rem 3rem 2rem;
-    margin: 3rem;
+    margin: 1.5rem;
     border-radius: 10px;
-    width: 20rem;
+    width: 80vw;
 }
 
 .labels {
@@ -46,6 +46,9 @@
     border-color: var(--main-color);
 }
 
+.textnone{
+    resize: none;
+}
 
 .span-required {
     display: none;
@@ -67,9 +70,18 @@
     background-color: var(--main-color);
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s ease;
+    
 }
 
-.botao:hover {
-    background-color: var(--mouse-hover);
+
+@media(min-width: 769px){
+    .content__titulo{
+        margin: 1.5rem 0;
+    }
+
+    .formulario{
+        width: 50vw;
+        height: 75vh;
+    }
+    
 }
