@@ -8,7 +8,7 @@
 
 
 .icone__dev {
-    fill:var(--main-color);
+    fill: var(--main-color);
     width: 1.7rem;
     height: 1.7rem;
     margin: 0 1rem 0 0;
@@ -27,7 +27,7 @@
 
 .navegacao__barra,
 .navegacao__titulo {
-    min-height: 3.625rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +70,8 @@
 }
 
 @media(max-width:768px) {
+    .navegacao__link:hover {}
+
     .menu__hamburgue {
         display: block;
     }

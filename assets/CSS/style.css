@@ -1,15 +1,13 @@
 @import url("/assets/CSS/header.css");
 @import url("/assets/CSS/information.css");
 @import url("/assets/CSS/about.css");
-@import url("/assets/CSS/forms.css");
+@import url("/assets/CSS/contact.css");
 @import url("/assets/CSS/footer.css");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* scrollbar-color: #711a7a #13101d;
-    scrollbar-width: thin; */
 }
 
 :root {
@@ -31,7 +29,7 @@ body {
     font-family: var(--main-font);
     color: var(--font-color);
     background-color: var(--background);
-    height: 100vh;
+    height: 110vh;
 }
 
 body::-webkit-scrollbar {
@@ -49,7 +47,6 @@ body::-webkit-scrollbar-thumb {
     /* cor do botão de rolagem*/
     border-radius: 1px;
     /* redondeza do botão de rolagem */
-    border: 1px solid  transparent;
+    border: 1px solid transparent;
     /* cria padding em torno do botão de rolagem*/
-
 }
