@@ -1,6 +1,6 @@
 // Seleciona o botão do hambúrguer e o menu de navegação
-const hamburger = document.querySelector(".menu__hamburgue");
-const navMenu = document.querySelector(".navegacao__menu");
+const hamburger = document.querySelector(".hamburger__menu");
+const navMenu = document.querySelector(".navigation__menu");
 
 // Adiciona um evento de clique ao botão do hambúrguer
 hamburger.addEventListener("click", () => {
@@ -10,7 +10,7 @@ hamburger.addEventListener("click", () => {
 });
 
 // Adiciona um evento de clique a cada link de navegação
-document.querySelectorAll(".navegacao__link").forEach(n => n.addEventListener("click", () => {
+document.querySelectorAll(".navigation__link").forEach(n => n.addEventListener("click", () => {
     // Remove a classe "active" do botão do hambúrguer e do menu de navegação
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");

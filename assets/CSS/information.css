@@ -1,83 +1,102 @@
-#sessao1__informacoes {
+#section1__information {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 4rem 0 0;
-    height: auto;
-}
-
-.minha__foto {
-    margin: 3rem 0 1rem;
-}
-
-.foto {
-    width: 9.375rem;
-    height: 9.375rem;
-    border-radius: 50%;
-    border-bottom: 3.5px solid var(--main-color);
-    border-right: 3.5px solid var(--main-color);
-}
-
-.meu__nome {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 32px;
-    color: var(--main-color);
-    margin: 1rem 0 2rem;
-}
-
-.redes__socias {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.link__redes {
-    color: var(--main-color);
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    border: 2px solid var(--main-color);
-    width: 12rem;
-    border-radius: 1rem;
-    font-size: 1.375rem;
-    line-height: 22px;
-    padding: 0.7rem;
+    padding: 6rem 0 4rem;
+    height: auto;
+    background-color: var(--background2);
+}
+
+.picture {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border-bottom: 3px solid var(--main-color);
+    border-right: 3px solid var(--main-color);
+    margin-top: 2rem;
+}
+
+.my__name {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--main-color);
+    margin: 1rem 0 0.5rem;
+}
+
+.lacation {
+    font-size: 0.8rem;
+    font-weight: 400;
     text-decoration: none;
-    font-weight: 600;
+    color: var(--main-color);
+    transition: 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.lacation:hover {
+    color: var(--mouse-hover);
+}
+
+.lacation:focus {
+    color: var(--mouse-hover);
+}
+
+.social__medias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
     transition: 0.3s ease;
 }
 
-.icone__redes {
-    fill: var(--main-color);
-    width: 1.7rem;
-    height: 1.7rem;
+.social__medias_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    width: 100%;
+    border-radius: 50%;
+    font-size: 1.375rem;
+    line-height: 22px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.3s ease;
 }
 
-@media(min-width:1024px) {
-    .minha__foto {
+.social__medias_link:hover {
+    background-color: var(--mouse-hover2);
+}
+.social__medias_link:focus {
+    background-color: var(--mouse-hover2);
+}
+
+.social__icon {
+    fill: var(--main-color);
+    width: 1.375rem;
+    height: 1.375rem;
+}
+
+
+@media(min-width:768px) {
+
+    .my__picture {
         margin-bottom: 0.5rem;
     }
 
-    .meu__nome {
+    .my__name {
         margin: 0.9rem;
 
     }
 
-    .redes__socias {
+    .social__medias {
         flex-direction: row;
         justify-content: center;
         gap: 0.5rem;
-        width: 0;
-    }
-
-    .link__redes {
-        border: none;
-        padding: 0.5rem;
-        margin-right: 1rem;
+        /* width: 10%; */
     }
 
 }

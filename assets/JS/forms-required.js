@@ -17,7 +17,7 @@ form.addEventListener('submit', (Event) => {
 // Função para exibir o erro em um campo específico
 function setErro(index) {
     // Altera a borda do campo para vermelho
-    campos[index].style.border = '2px solid #e63636';
+    campos[index].style.border = '2px solid #ff0000';
      // Exibe o span de erro correspondente
     spans[index].style.display = 'block';
 }

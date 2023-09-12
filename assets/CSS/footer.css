@@ -1,32 +1,32 @@
-
-.rodape {
+.footer {
     text-align: center;
-    background: var(--background-hover);
+    background: var(--main-color);
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0 0 2rem;
     padding: 1.5rem;
 }
 
-.rodape__titulo {
+.footer__title {
     font-weight: 200;
     font-size: 0.875rem;
     margin: 0 0 1rem;
     line-height: 14px;
+    color: var(--white);
 }
 
-.rodape__redes {
+.social__footer {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.link__redes_rodape{
+.social__link_footer {
     line-height: 16px;
 }
-.icone__redes_rodape {
+
+.social__icon_footer {
     width: 1.4rem;
     height: 1.4rem;
-    fill: var(--font-color);
+    fill: var(--white);
 }
-

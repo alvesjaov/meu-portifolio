@@ -11,13 +11,14 @@
 }
 
 :root {
-    --main-color: #711a7a;
-    --font-color: #F6F6F6;
-    --background: #13101d;
-    --color-red: #e63636;
-    --background-hover: rgb(184, 57, 176, 0.2);
-    --background-hover2: rgb(184, 57, 176, 0.3);
-    --mouse-hover: #b839b0;
+    --main-color: #2d2e32;
+    --white: #f6f6f6;
+    --background: #ffffff;
+    --color-red: #ff0000;
+    --background2: #f9f9f9;
+    --background3: #2d2e3233;
+    --mouse-hover: #147efb;
+    --mouse-hover2: #1480fb80;
     --main-font: 'Rubik', sans-serif;
 }
 
@@ -27,13 +28,14 @@ html {
 
 body {
     font-family: var(--main-font);
-    color: var(--font-color);
+    color: var(--main-color);
     background-color: var(--background);
-    height: 110vh;
+    position: relative;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
-    width: 1px;
+    width: 5px;
     /* width de toda a barra de rolagem */
 }
 
@@ -43,10 +45,11 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: #8e8e8e;
     /* cor do botão de rolagem*/
-    border-radius: 1px;
+    border-radius: 20px;
     /* redondeza do botão de rolagem */
-    border: 1px solid transparent;
+    border: 20px solid transparent;
     /* cria padding em torno do botão de rolagem*/
+    height: 4px;
 }

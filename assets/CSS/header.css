@@ -1,64 +1,70 @@
-.cabecalho.fixed {
+.header {
     background-color: var(--background);
-    border-bottom: 1px solid var(--main-color);
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
     position: fixed;
     top: 0;
     width: 100%;
+    box-sizing: content-box;
 }
 
 
-.icone__dev {
+.icon__dev {
     fill: var(--main-color);
     width: 1.7rem;
     height: 1.7rem;
     margin: 0 1rem 0 0;
 }
 
-.navegacao__item {
+.navigation__item {
     list-style: none;
 }
 
-.navegacao__link,
-.navegacao__titulo {
-    font-weight: 600;
+.navigation__link,
+.navigation__title {
+    font-size: 1.7rem;
+    font-weight: 500;
     color: var(--main-color);
     text-decoration: none;
 }
 
-.navegacao__barra,
-.navegacao__titulo {
-    height: 4rem;
+.navigation__bar,
+.navigation__title {
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1.5rem 0 0.5rem;
 }
 
-.navegacao__menu {
+.navigation__menu {
     display: flex;
     align-items: center;
     gap: 1.5rem;
 }
 
-.navegacao__titulo {
-    font-size: 1.2rem;
+.navigation__title {
+    font-size: 1.375rem;
+    line-height: 22px;
 }
 
-.navegacao__link {
-    font-size: 1.2rem;
+.navigation__link {
+    font-size: 1.375rem;
+    line-height: 22px;
     transition: 0.3s ease;
 }
 
-.navegacao__link:hover {
+.navigation__link:hover {
     color: var(--mouse-hover);
 }
-
-.menu__hamburgue {
+.navigation__link:focus {
+    color: var(--mouse-hover);
+}
+.hamburger__menu {
     display: none;
     cursor: pointer;
 }
 
-.barra {
+.bar {
     display: block;
     width: 1.5625rem;
     height: 0.1875rem;
@@ -70,25 +76,23 @@
 }
 
 @media(max-width:768px) {
-    .navegacao__link:hover {}
-
-    .menu__hamburgue {
+    .hamburger__menu {
         display: block;
     }
 
-    .menu__hamburgue.active .barra:nth-child(2) {
+    .hamburger__menu.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .menu__hamburgue.active .barra:nth-child(1) {
+    .hamburger__menu.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .menu__hamburgue.active .barra:nth-child(3) {
+    .hamburger__menu.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .navegacao__menu {
+    .navigation__menu {
         position: fixed;
         right: -100%;
         top: 0;
@@ -105,16 +109,16 @@
         padding-top: 18rem;
     }
 
-    .navegacao__menu.active {
+    .navigation__menu.active {
         right: 0;
     }
 
-    .navegacao__item {
+    .navigation__item {
         margin: 0.75rem 0;
     }
 
-    .navegacao__link {
-        font-size: 1.75rem;
+    .navigation__link {
+        font-size: 1.7rem;
         font-weight: 500;
     }
 
