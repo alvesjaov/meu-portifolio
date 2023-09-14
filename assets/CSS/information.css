@@ -9,16 +9,11 @@
 }
 
 .picture {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    border-bottom: 3px solid var(--main-color);
-    border-right: 3px solid var(--main-color);
     margin-top: 2rem;
 }
 
 .my__name {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     line-height: 28px;
     color: var(--main-color);
@@ -32,6 +27,10 @@
     color: var(--main-color);
     transition: 0.3s ease;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    outline: none;
 }
 
 .lacation:hover {
@@ -40,6 +39,12 @@
 
 .lacation:focus {
     color: var(--mouse-hover);
+}
+
+.location__icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    fill: var(--main-color);
 }
 
 .social__medias {
@@ -65,11 +70,13 @@
     text-decoration: none;
     font-weight: 400;
     transition: 0.3s ease;
+    outline: none;
 }
 
 .social__medias_link:hover {
     background-color: var(--mouse-hover2);
 }
+
 .social__medias_link:focus {
     background-color: var(--mouse-hover2);
 }

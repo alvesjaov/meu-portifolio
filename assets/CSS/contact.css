@@ -2,7 +2,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 6rem 0 4rem;
+        padding: 5.5rem 0 3rem;
+        height: auto;
         background-color: var(--background2);
     }
 
@@ -13,10 +14,12 @@
     }
 
     .contact__titele {
-        font-size: 2rem;
-        font-weight: 400;
-        line-height: 32px;
-        color: var(--mouse-hover);
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 20.8px;
+        text-transform: uppercase;
+        color: var(--main-color);
+        margin-bottom: 0.5rem;
     }
 
     .contact__subtitele {
@@ -24,6 +27,15 @@
         line-height: 16px;
         font-size: 1rem;
         font-weight: 400;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .message__icon{
+        width: 1rem;
+        height: 1rem;
+        fill: var(--main-color);
     }
 
     .form {
@@ -35,7 +47,6 @@
         margin: 1.5rem;
         border-radius: 10px;
         width: 80vw;
-
     }
 
     .labels {
@@ -82,23 +93,31 @@
         outline: none;
         border: none;
         border-radius: 5px;
-        margin-top: 1.5rem;
+        margin: 1rem 15% 0;
         color: var(--white);
         background-color: var(--main-color);
         font-weight: 600;
         cursor: pointer;
         transition: 0.3s ease;
+        width: 70%;
     }
-    .button:hover{
+
+    .button:hover {
         background-color: var(--mouse-hover);
     }
-    .button:focus{
+
+    .button:focus {
         background-color: var(--mouse-hover);
     }
 
     @media(min-width: 769px) {
         .form {
             width: 50vw;
+        }
+
+        .textnone {
+            height: 20vh;
+            resize: none;
         }
 
     }
