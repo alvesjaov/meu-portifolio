@@ -1,5 +1,7 @@
     #section5__contact {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         align-items: center;
         padding: 5.5rem 0 3rem;
@@ -7,13 +9,8 @@
         background-color: var(--background2);
     }
 
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .contact__titele {
+        text-align: center;
         font-size: 1.3rem;
         font-weight: 700;
         line-height: 20.8px;
@@ -32,7 +29,7 @@
         gap: 0.3rem;
     }
 
-    .message__icon{
+    .message__icon {
         width: 1rem;
         height: 1rem;
         fill: var(--main-color);
@@ -102,12 +99,62 @@
         width: 70%;
     }
 
-    .button:hover {
+    .button:hover,
+    .button:focus {
         background-color: var(--mouse-hover);
     }
 
-    .button:focus {
+    .button:disabled {
+        cursor: not-allowed;
+        background: var(--background3);
+    }
+
+    .dialog_box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--background4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+    }
+
+    .dialog-content {
+        background-color: var(--background);
+        padding: 1.25rem;
+        border-radius: 0.625rem;
+        width: 80%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .dialog__message_title {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        color: var(--main-color);
+        font-weight: 700;
+        line-height: 20.8px;
+        margin-bottom: 1.25rem ;
+    }
+
+
+    .dialog__button{
+        padding: 0.625rem 1.25rem;
         background-color: var(--mouse-hover);
+        color: var(--white);
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 19.2px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .dialog__button:focus{
+        background: var(--mouse-hover);
     }
 
     @media(min-width: 769px) {

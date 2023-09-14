@@ -23,6 +23,7 @@
 .lacation {
     font-size: 0.8rem;
     font-weight: 400;
+    line-height: 12.8px;
     text-decoration: none;
     color: var(--main-color);
     transition: 0.3s ease;
@@ -32,10 +33,7 @@
     outline: none;
 }
 
-.lacation:hover {
-    color: var(--mouse-hover);
-}
-
+.lacation:hover,
 .lacation:focus {
     color: var(--mouse-hover);
 }
@@ -72,10 +70,7 @@
     outline: none;
 }
 
-.social__medias_link:hover {
-    background-color: var(--mouse-hover2);
-}
-
+.social__medias_link:hover,
 .social__medias_link:focus {
     background-color: var(--mouse-hover2);
 }

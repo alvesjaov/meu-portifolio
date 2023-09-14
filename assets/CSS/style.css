@@ -14,11 +14,12 @@
     --main-color: #2d2e32;
     --white: #f6f6f6;
     --background: #ffffff;
-    --color-red: #ff0000;
     --background2: #f9f9f9;
     --background3: #2d2e3233;
+    --background4: #00000080;
     --mouse-hover: #147efb;
     --mouse-hover2: #1480fb80;
+    --color-red: #ff0000;
     --main-font: 'Rubik', sans-serif;
 }
 
