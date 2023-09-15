@@ -133,28 +133,25 @@
 
     .dialog__message_title {
         font-size: 1.3rem;
-        text-transform: uppercase;
         color: var(--main-color);
-        font-weight: 700;
+        text-transform: uppercase;
+        font-weight: 500;
         line-height: 20.8px;
         margin-bottom: 1.25rem ;
     }
 
 
     .dialog__button{
-        padding: 0.625rem 1.25rem;
+        padding: 0.8rem 2rem;
         background-color: var(--mouse-hover);
         color: var(--white);
-        font-size: 1.2rem;
-        font-weight: 700;
-        line-height: 19.2px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 20.8px;
         border: none;
         border-radius: 10px;
         cursor: pointer;
-    }
-
-    .dialog__button:focus{
-        background: var(--mouse-hover);
+        outline: invert;
     }
 
     @media(min-width: 769px) {
