@@ -7,34 +7,93 @@
     height: auto;
 }
 
-.about__me {
+.about__me,
+.about__me_experience,
+.about__me_education {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.about__me_title {
+.about__me_title,
+.experience__title,
+.education__title,
+.softSkills__title {
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 20.8px;
     text-transform: uppercase;
     color: var(--main-color);
     margin-bottom: 0.5rem;
+    text-align: center;
+    padding-top: 1rem;
 }
 
-.about__me_text {
-    text-align: justify;
+.experience__subtitle,
+.education__subtitle {
+    color: var(--main-color);
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5rem 0.5rem 0.225rem;
+    padding: 0 1rem;
+}
+
+.about__me_text,
+.experience__text,
+.education__text {
+    text-align: left;
     word-spacing: normal;
     padding: 0 1rem;
     word-wrap: break-word;
     word-break: normal;
     text-indent: 2rem;
     margin: 0.5rem;
-
 }
 
-@media(min-width:768px) {
-    .space__text {
-        display: none;
+.about__me_certificates {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    color: var(--main-color);
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    outline: none;
+    list-style: none;
+    text-align: left;
+    padding: 0 1rem;
+    margin: 0.5rem;
+    gap: 0.5rem;
+}
+
+.about__me_certificates:hover,
+.about__me_certificates:focus {
+    color: var(--mouse-hover);
+}
+
+.certificates__icon {
+    width: 1rem;
+    height: 1rem;
+    fill: var(--main-color);
+}
+
+.softSkills__text {
+    list-style: none;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0.5rem;
+}
+
+.softSkills__items {
+    margin-bottom: 0.3rem;
+}
+
+@media(min-width:1024px) {
+    #section2__about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
     }
 }

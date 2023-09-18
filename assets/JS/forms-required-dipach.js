@@ -109,8 +109,8 @@ class FormSubmit {
 
       // Verificando se há erros de validação
       const errors = document.querySelectorAll('.span-required');
-      for (let i = 0; i < errors.length; i++) {
-        if (errors[i].style.display === 'block') {
+      for (const element of errors) {
+        if (element.style.display === 'block') {
           throw new Error('Erro de validação');
         }
       }
