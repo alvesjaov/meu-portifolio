@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 7rem 0 3rem;
+    padding: 7rem 0 7rem;
     height: auto;
     background-color: var(--background2);
 }
