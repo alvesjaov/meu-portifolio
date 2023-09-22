@@ -45,7 +45,7 @@
 
 .navigation__bar,
 .navigation__title {
-    height: 4rem;
+    height: 5.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,10 +93,6 @@
 
     .hamburger__menu.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .navigation__bar {
-        height: 6rem;
     }
 
     .navigation__menu {
