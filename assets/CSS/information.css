@@ -115,7 +115,7 @@
     transform: scale(1.2);
 }
 
-@media(min-width:768px) {
+@media screen and (min-width:768px) {
 
     .my__picture {
         margin-bottom: 0.5rem;

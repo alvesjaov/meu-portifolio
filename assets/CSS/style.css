@@ -1,7 +1,8 @@
 @import url("/assets/CSS/header.css");
 @import url("/assets/CSS/information.css");
 @import url("/assets/CSS/about.css");
-@import url("/assets/CSS/projects.css");
+@import url("/assets/CSS/certificate.css");
+/* @import url("/assets/CSS/projects.css"); */
 @import url("/assets/CSS/contact.css");
 @import url("/assets/CSS/footer.css");
 * {

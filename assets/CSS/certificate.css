@@ -1,0 +1,135 @@
+#section5__certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    height: auto;
+    background-color: var(--background2);
+}
+
+.header__certificate {
+    margin: 2rem 0;
+}
+
+.certificates__title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 27.2px;
+    text-transform: uppercase;
+    color: var(--mouse-hover);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.certificates__box {
+    width: 20rem;
+    border: 1px solid var(--main-color);
+    background-color: var(--background);
+    border-radius: 10px;
+    padding: 0.625rem;
+    margin: 0.5rem 0.5rem 1.5rem;
+    align-items: flex-start;
+}
+
+.certificates__pdf {
+    width: 18.75rem;
+    height: 14rem;
+}
+
+.description {
+    background-color: var(--background2);
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.description h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#lessText1,
+#moreText1,
+#lessText2,
+#moreText2,
+#lessText3,
+#moreText3,
+#lessText4,
+#moreText4,
+#lessText5,
+#moreText5,
+#lessText6,
+#moreText6,
+#lessText7,
+#moreText7,
+#lessText8,
+#moreText8 {
+    line-height: 16px;
+}
+
+
+#myBtn1,
+#myBtn2,
+#myBtn3,
+#myBtn4,
+#myBtn5,
+#myBtn6,
+#myBtn,
+#myBtn8 {
+    background-color: var(--background2);
+    border: none;
+    color: var(--mouse-hover);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.description__course_workload {
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .certificates {
+        display: grid;
+        align-items: start;
+    }
+
+    .certificates__box {
+        width: 22.5rem;
+        margin: 0.5rem;
+    }
+
+    .certificates__pdf {
+        width: 21.5rem;
+        height: 15.5rem;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .certificates {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .certificates__box {
+        width: 28.5rem;
+        margin: 0.5rem;
+
+    }
+
+    .certificates__pdf {
+        width: 26.5rem;
+        height: 19.4rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .certificates {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
