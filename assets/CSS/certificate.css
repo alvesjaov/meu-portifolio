@@ -23,7 +23,7 @@
 }
 
 .certificates__box {
-    width: 20rem;
+    width: 21rem;
     border: 1px solid var(--main-color);
     background-color: var(--background);
     border-radius: 10px;
@@ -33,8 +33,8 @@
 }
 
 .certificates__pdf {
-    width: 18.75rem;
-    height: 14rem;
+    width: 19.5rem;
+    height: 14.5rem;
 }
 
 .description {
@@ -96,6 +96,7 @@
     .certificates {
         display: grid;
         align-items: start;
+        grid-template-columns: 1fr 1fr;
     }
 
     .certificates__box {
