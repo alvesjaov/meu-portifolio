@@ -13,11 +13,11 @@
 }
 
 .certificates__title {
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 27.2px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 20.8px;
     text-transform: uppercase;
-    color: var(--mouse-hover);
+    color: var(--main-color);
     margin-bottom: 1rem;
     text-align: center;
     padding-top: 1rem;
