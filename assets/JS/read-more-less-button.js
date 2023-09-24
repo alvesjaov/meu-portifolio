@@ -1,8 +1,8 @@
 function myFunction(moreTextId, dotsId, btnId) {
   // Obter os elementos do DOM usando os IDs fornecidos
-  var moreText = document.getElementById(moreTextId); // O texto que será mostrado ou escondido
-  var dots = document.getElementById(dotsId); // Os pontos que serão mostrados ou escondidos
-  var btn = document.getElementById(btnId); // O botão que o usuário clica para mostrar ou esconder o texto
+  let moreText = document.getElementById(moreTextId); // O texto que será mostrado ou escondido
+  let dots = document.getElementById(dotsId); // Os pontos que serão mostrados ou escondidos
+  let btn = document.getElementById(btnId); // O botão que o usuário clica para mostrar ou esconder o texto
 
   // Se o texto estiver escondido (display = "none"), mostre-o
   if (moreText.style.display === "none") {

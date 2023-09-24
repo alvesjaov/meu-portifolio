@@ -3,7 +3,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 5rem 0 2rem;
+        padding: 7rem 0 2rem;
         height: auto;
         background-color: var(--background2);
     }
@@ -28,8 +28,8 @@
         gap: 0.3rem;
     }
 
-    .text__area{
-        height: 25vh;
+    .text__area {
+        height: 20rem;
         resize: none;
     }
 
@@ -137,11 +137,11 @@
         text-transform: uppercase;
         font-weight: 500;
         line-height: 20.8px;
-        margin-bottom: 1.25rem ;
+        margin-bottom: 1.25rem;
     }
 
 
-    .dialog__button{
+    .dialog__button {
         padding: 0.8rem 2rem;
         background-color: var(--mouse-hover);
         color: var(--white);
@@ -160,7 +160,7 @@
         }
 
         .text__area {
-            height: 20vh;
+            height: auto;
             resize: none;
         }
 
