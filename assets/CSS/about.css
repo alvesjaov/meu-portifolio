@@ -50,7 +50,7 @@
     margin: 0.5rem;
 }
 
-.about__me_certificates {
+.about__me_certificate {
     font-size: 1rem;
     font-weight: 500;
     line-height: 16px;
@@ -67,12 +67,12 @@
     gap: 0.5rem;
 }
 
-.about__me_certificates:hover,
-.about__me_certificates:focus {
+.about__me_certificate:hover,
+.about__me_certificate:focus {
     color: var(--mouse-hover);
 }
 
-.certificates__icon {
+.certificate__icon {
     width: 1rem;
     height: 1rem;
     fill: var(--main-color);
