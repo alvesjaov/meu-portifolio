@@ -27,7 +27,9 @@
                 <li class="navigation__item">
                     <a class="navigation__link" href="#section2__about">Sobre mim</a>
                 </li>
-
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#section6__blog">Blog</a>
+                </li>
                 <li class="navigation__item">
                     <a class="navigation__link" href="#section7__contact">Contato</a>
                 </li>
@@ -147,6 +149,72 @@
             </div>
         </section>
 
+        <section id="section6__blog">
+            <article class="blog__article">
+                <h2 class="blog__article_title">Educação e Inteligência Artificial</h2>
+                <p class="blog__article_paragraph" id="lessTextA1">A inteligência artificial (IA) está transformando
+                    o mundo em que vivemos, incluindo a educação. Com a IA, podemos personalizar o ensino para
+                    atender às necessidades individuais dos alunos, melhorar a eficiência dos sistemas educacionais
+                    e revolucionar a maneira como aprendemos.<span id="dotsA1">..
+                        <button onclick="myFunction('moreTextA1', 'dotsA1', 'myBtnA1')" id="myBtnA1">Ler
+                            mais</button></span></p>
+                <div id="moreTextA1" style="display: none;">
+                    <h3 class="blog__article_subtitle">Personalização do Ensino</h3>
+                    <p class="blog__article_paragraph">Um dos maiores benefícios da IA na educação é a capacidade de
+                        personalizar o ensino. Sistemas de IA podem analisar o desempenho do aluno para identificar
+                        pontos fortes e fracos, adaptando o material de ensino para atender às suas necessidades
+                        individuais. Isso permite uma abordagem mais focada no aluno, onde cada estudante pode
+                        aprender no seu próprio ritmo e estilo.</p>
+                    <h3 class="blog__article_subtitle">Melhoria da Eficiência</h3>
+                    <p class="blog__article_paragraph">A IA também pode melhorar a eficiência na educação. Por
+                        exemplo, os professores podem usar sistemas de IA para automatizar tarefas administrativas,
+                        liberando mais tempo para se concentrarem no ensino. Além disso, a IA pode fornecer feedback
+                        instantâneo aos alunos, acelerando o processo de aprendizagem. Isso não apenas economiza
+                        tempo, mas também permite que os alunos recebam feedback em tempo real sobre seu desempenho.
+                    </p>
+                    <h3 class="blog__article_subtitle">Revolucionando a Aprendizagem</h3>
+                    <p class="blog__article_paragraph">Finalmente, a IA tem o potencial de revolucionar a maneira
+                        como aprendemos. Com a realidade virtual e aumentada, os alunos podem ter experiências de
+                        aprendizagem imersivas. Além disso, os chatbots de IA podem fornecer tutoria personalizada
+                        24/7 aos alunos. Isso significa que os alunos podem obter ajuda sempre que precisarem,
+                        independentemente da hora ou do local.</p>
+                    <p class="blog__article_paragraph">Em resumo, a IA tem o potencial de transformar a educação
+                        para melhor. Estamos apenas começando a arranhar a superfície do que é possível. À medida
+                        que continuamos a explorar as possibilidades da IA na educação, podemos esperar ver ainda
+                        mais inovações e melhorias no futuro.
+                        <button onclick="myFunction('moreTextA1', 'dotsA1', 'myBtnA1')" id="myBtnA1">Ler menos</button>
+                    </p>
+                </div>
+                <hr>
+                <h2 class="blog__article_title">A Influência da Tecnologia na Saúde</h2>
+                <p class="blog__article_paragraph" id="lessTextA2">A tecnologia tem um impacto significativo em muitos
+                    aspectos de nossas vidas, e a saúde não é exceção<span id="dotsA2">...
+                        <button onclick="myFunction('moreTextA2', 'dotsA2', 'myBtnA2')" id="myBtnA2">Ler
+                            mais</button></span></p>
+                <div id="moreTextA2" style="display: none;">
+                    <h3 class="blog__article_subtitle">Telemedicina</h3>
+                    <p class="blog__article_paragraph">A telemedicina permite que os pacientes consultem médicos e
+                        outros profissionais de saúde remotamente, usando tecnologia digital. Isso é especialmente útil
+                        para pessoas que vivem em áreas rurais ou distantes, onde o acesso a cuidados de saúde pode ser
+                        limitado.</p>
+                    <h3 class="blog__article_subtitle">Prontuários Eletrônicos</h3>
+                    <p class="blog__article_paragraph">Os prontuários eletrônicos facilitam o compartilhamento de
+                        informações de saúde entre diferentes profissionais de saúde e instituições. Isso pode levar a
+                        um atendimento mais coordenado e eficiente.</p>
+                    <h3 class="blog__article_subtitle">Dispositivos Wearable</h3>
+                    <p class="blog__article_paragraph">Os dispositivos wearable, como relógios inteligentes e monitores
+                        de fitness, podem rastrear uma variedade de dados de saúde, como frequência cardíaca, níveis de
+                        atividade física e qualidade do sono. Esses dados podem ser usados para monitorar a saúde de um
+                        indivíduo ao longo do tempo e podem até mesmo ser usados para detectar potenciais problemas de
+                        saúde.</p>
+                    <p class="blog__article_paragraph">Em resumo, a tecnologia tem o potencial de transformar a saúde
+                        para melhor. Estamos apenas começando a explorar todas as possibilidades que a tecnologia pode
+                        oferecer para melhorar a saúde e o bem-estar.
+                        <button onclick="myFunction('moreTextA2', 'dotsA2', 'myBtnA2')" id="myBtnA2">Ler menos</button>
+                </div>
+            </article>
+        </section>
+
         <section id="section7__contact">
             <div data-message-box></div>
             <div class="contact">
@@ -196,7 +264,7 @@
 
         </section>
     </main>
-    
+
     <footer class="footer">
         <div class="footer__title">
             <p> 2023 Copyright ©. Todos os direitos reservados</p>
@@ -224,6 +292,7 @@
     </footer>
 
     <script src="/assets/JS/hamburger-menu.js"></script>
+    <script src="/assets/JS/read-more-less-button.js"></script>
     <script src="/assets/JS/forms-required-dipach.js"></script>
 </body>
 
