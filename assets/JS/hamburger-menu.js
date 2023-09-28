@@ -15,4 +15,3 @@ document.querySelectorAll(".navigation__link").forEach(n => n.addEventListener("
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }));
-

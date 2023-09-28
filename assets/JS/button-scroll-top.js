@@ -10,17 +10,17 @@ function scrollFunction() {
   if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
     if (window.innerWidth >= 1440) {
       rightValue = "6rem";
-    } 
+    }
     else if (window.innerWidth >= 1024) {
       rightValue = "1rem";
-    } 
+    }
     else if (window.innerWidth >= 768) {
       rightValue = "2rem";
-    } 
+    }
     else {
       rightValue = "1rem";
     }
-  } 
+  }
   else {
     rightValue = "-100px";   // Se a rolagem do corpo do documento e do elemento raiz do documento for menor ou igual a 150, define o valor da direita como "-100px"
   }

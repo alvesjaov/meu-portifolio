@@ -28,12 +28,16 @@
                     <a class="navigation__link" href="#section2__about">Sobre mim</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="#section6__blog">Blog</a>
+                    <a class="navigation__link" href="#section3__projects">Projetos</a>
                 </li>
                 <li class="navigation__item">
-                    <a class="navigation__link" href="#section7__contact">Contato</a>
+                    <a class="navigation__link" href="#section5__blog">Blog</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#section6__contact">Contato</a>
                 </li>
             </ul>
+
             <div class="hamburger__menu">
                 <samp class="bar"></samp>
                 <samp class="bar"></samp>
@@ -46,7 +50,6 @@
             <div class="my__picture">
                 <img class="picture" src="/assets/IMG/my-picture.svg" alt="foto de João Victor">
             </div>
-
             <h1 class="my__name">João Victor Alves</h1>
             <a class="location" href="https://maps.app.goo.gl/dFtgyrxJ11iww1k69 " target="_blank"
                 rel="noopener noreferrer">Brumado-Bahia, Brasil <svg class="location__icon" width="16" height="16"
@@ -86,6 +89,7 @@
                     <li><img class="languages__icons" src="/assets/IMG/javascript-icon.svg" alt="Ícone JavaScript"
                             title="JavaScript" /></li>
                 </ul>
+
                 <ul class="programming__languages">
                     <li><img class="languages__icons" src="/assets/IMG/figma-ico.svg" alt="Ícone do Figma"
                             title="Figma"></li>
@@ -94,6 +98,7 @@
                     <li><img class="languages__icons" src="/assets/IMG/github-icon.svg" alt="Ícone do GitHub"
                             title="GitHub"></li>
                 </ul>
+
             </div>
         </section>
 
@@ -115,7 +120,6 @@
                 <h3 class="education__subtitle">Centro Universitário UniFG</h3>
                 <p class="education__text">Curso Superior de Tecnologia(CST), Análise e Desenvolvimento de Sistemas
                     2021 - 2024</p>
-
                 <h3 class="education__subtitle">CEEP em Gestão e Meio Ambiente</h3>
                 <p class="education__text"> Técnico Integrado, Comércio
                     fev de 2015 - dez de 2019</p>
@@ -146,10 +150,63 @@
                     <li class="softSkills__items">Comunicação</li>
                     <li class="softSkills__items">Capacidade de adaptação</li>
                 </ul>
+
             </div>
         </section>
 
-        <section id="section6__blog">
+        <section id="section3__projects">
+            <h1 class="project__title">Meus Projetos</h1>
+            <div class="project__box">
+                <div class="image__container">
+                    <img class="project__image" src="/assets/IMG/alura-plus.png"
+                        alt="link para pagina https://alura-plus-alvesjaov.vercel.app/ ">
+                </div>
+
+                <div class="project__text">
+                    <h3 class="project__about_subtitle">Alura Plus</h3>
+                    <p class="project__about_text">O Alura Plus é um projeto que faz parte do curso de front-end da
+                        plataforma Alura. Este projeto
+                        foi desenvolvido utilizando apenas HTML e CSS, demonstrando a eficácia dessas tecnologias na
+                        criação de sites.</p>
+                </div>
+
+                <div class="project__link">
+                    <a href="https://alura-plus-alvesjaov.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        Visualizar<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                            class="project__link_icon">
+                            <path
+                                d="M12.943 3.463A.748.748 0 0012.25 3h-5.5a.75.75 0 000 1.5h3.69l-7.22 7.22a.75.75 0 101.06 1.06l7.22-7.22v3.69a.75.75 0 001.5 0v-5.5a.747.747 0 00-.057-.287z" />
+                        </svg></a>
+                </div>
+            </div>
+
+            <div class="project__box">
+                <div class="image__container">
+                    <img class="project__image" src="/assets/IMG/alvesjaov.png"
+                        alt="link para pagina https://alvesjaov.vercel.app">
+                </div>
+
+                <div class="project__about">
+                    <h3 class="project__about_subtitle">Meu Portfolio</h3>
+                    <p class="project__about_text">Este é meu portfólio para a Unidade Curricular de
+                        Usabilidade, Desenvolvimento Web, Mobile e Jogos. Utilizando HTML, CSS e JavaScript, criei
+                        soluções eficazes e jogos interativos com foco na usabilidade.</p>
+                </div>
+
+                <div class="project__link">
+                    <a href="https://alvesjaov.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        Visualizar<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                            class="project__link_icon">
+                            <path
+                                d="M12.943 3.463A.748.748 0 0012.25 3h-5.5a.75.75 0 000 1.5h3.69l-7.22 7.22a.75.75 0 101.06 1.06l7.22-7.22v3.69a.75.75 0 001.5 0v-5.5a.747.747 0 00-.057-.287z" />
+                        </svg></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section5__blog">
+            <h1 class="blog__title">Meu blog</h1>
             <article class="blog__article">
                 <h2 class="blog__article_title">Educação e Inteligência Artificial</h2>
                 <p class="blog__article_paragraph" id="lessTextA1">A inteligência artificial (IA) está transformando
@@ -185,18 +242,21 @@
                         <button onclick="myFunction('moreTextA1', 'dotsA1', 'myBtnA1')" id="myBtnA1">Ler menos</button>
                     </p>
                 </div>
+            </article>
+
+            <article class="blog__article">
                 <hr>
                 <h2 class="blog__article_title">A Influência da Tecnologia na Saúde</h2>
                 <p class="blog__article_paragraph" id="lessTextA2">A tecnologia tem um impacto significativo em muitos
-                    aspectos de nossas vidas, e a saúde não é exceção<span id="dotsA2">...
+                    aspectos de nossas vidas, e a saúde não é exceção
+                <h3 class="blog__article_subtitle">Telemedicina</h3>
+                <p class="blog__article_paragraph">A telemedicina permite que os pacientes consultem médicos e
+                    outros profissionais de saúde remotamente, usando tecnologia digital. Isso é especialmente útil
+                    para pessoas que vivem em áreas rurais ou distantes, onde o acesso a cuidados de saúde pode ser
+                    limitado.<span id="dotsA2">..
                         <button onclick="myFunction('moreTextA2', 'dotsA2', 'myBtnA2')" id="myBtnA2">Ler
                             mais</button></span></p>
                 <div id="moreTextA2" style="display: none;">
-                    <h3 class="blog__article_subtitle">Telemedicina</h3>
-                    <p class="blog__article_paragraph">A telemedicina permite que os pacientes consultem médicos e
-                        outros profissionais de saúde remotamente, usando tecnologia digital. Isso é especialmente útil
-                        para pessoas que vivem em áreas rurais ou distantes, onde o acesso a cuidados de saúde pode ser
-                        limitado.</p>
                     <h3 class="blog__article_subtitle">Prontuários Eletrônicos</h3>
                     <p class="blog__article_paragraph">Os prontuários eletrônicos facilitam o compartilhamento de
                         informações de saúde entre diferentes profissionais de saúde e instituições. Isso pode levar a
@@ -215,7 +275,7 @@
             </article>
         </section>
 
-        <section id="section7__contact">
+        <section id="section6__contact">
             <div data-message-box></div>
             <div class="contact">
                 <h1 class="contact__title">Contato</h1>
@@ -261,7 +321,6 @@
                     <button id="okButton" class="dialog__button">OK</button>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -269,6 +328,7 @@
         <div class="footer__title">
             <p> 2023 Copyright ©. Todos os direitos reservados</p>
         </div>
+
         <div class="social__footer">
             <a class="social__link_footer" href="https://www.github.com/alvesjaov" target="_blank"
                 rel="noopener noreferrer" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg"

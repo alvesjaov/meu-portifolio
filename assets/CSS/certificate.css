@@ -1,18 +1,19 @@
-#section5__certificate {
+#section4__certificate {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6rem 0;
+    padding: 2rem 0;
     height: auto;
     background-color: var(--background2);
 }
+
 .header__certificate {
     margin: 2rem 0;
 }
 
 .certificate__title {
-    color: var(--main-color);
+    color: var(--mouse-hover);
     outline: none;
     font-size: 1.5rem;
     font-weight: 700;
@@ -21,6 +22,7 @@
     text-align: center;
     padding-top: 1rem;
 }
+
 .certificate__box {
     display: flex;
     flex-direction: column;
@@ -33,8 +35,7 @@
     margin: 1rem;
 }
 
-.certificate__pdf,
-iframe {
+.certificate__pdf {
     border-radius: 10px;
     width: 100%;
     height: 13.5rem;
@@ -46,7 +47,6 @@ iframe {
     border-radius: 10px;
     margin-top: 0.5rem;
     padding: 0.5rem;
-
 }
 
 .description h2 {
@@ -108,8 +108,7 @@ iframe {
         width: 34.5rem;
     }
 
-    .certificate__pdf,
-    iframe {
+    .certificate__pdf {
         height: 24rem;
 
     }
@@ -126,8 +125,7 @@ iframe {
         width: 29.5rem;
     }
 
-    .certificate__pdf,
-    iframe {
+    .certificate__pdf {
         height: 20.4rem;
     }
 }

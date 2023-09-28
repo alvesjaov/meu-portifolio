@@ -9,11 +9,11 @@ function myFunction(moreTextId, dotsId, btnId) {
     moreText.style.display = "inline"; // Mostra o texto
     btn.innerHTML = "Ler menos"; // Muda o texto do botão para "Ler menos"
   } else {
-// Se o texto estiver sendo mostrado, esconda-o
+    // Se o texto estiver sendo mostrado, esconda-o
     moreText.style.display = "none"; // Esconde o texto
     btn.innerHTML = "Ler mais"; // Muda o texto do botão para "Ler mais"
   }
-  
+
   // Alterna a exibição dos pontos com base na exibição do texto
   dots.style.display = (moreText.style.display === "none") ? "inline" : "none";
 }

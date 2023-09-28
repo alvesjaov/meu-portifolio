@@ -116,21 +116,18 @@
 }
 
 @media screen and (min-width:768px) {
-
     .my__picture {
         margin-bottom: 0.5rem;
     }
 
     .my__name {
         margin: 0.9rem;
-
     }
 
     .social__medias {
         flex-direction: row;
         justify-content: center;
         gap: 0.5rem;
-        /* width: 10%; */
     }
 
     .programming__tech {

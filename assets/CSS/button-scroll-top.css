@@ -1,12 +1,11 @@
 #myBtnScroll {
     position: fixed;
     bottom: 7.5rem;
-    right: -100px; /* Modificado */
+    right: -100px;
     z-index: 99;
     border: none;
     outline: none;
     background-color: var(--mouse-hover);
-    
     border-radius: 50%;
     line-height: 5px;
     transition: 0.4s all;
@@ -17,23 +16,22 @@
     transition: 0.4s all;
     width: 2.5rem;
     height: 2.5rem;
-    
 }
 
 @media screen and (min-width:768px) {
     #myBtnScroll {
-        right: -100px; /* Modificado */
+        right: -100px;
     }
 }
 
 @media screen and (min-width:1024px) {
     #myBtnScroll {
-        right: -100px; /* Modificado */
+        right: -100px;
     }
 }
 
 @media screen and (min-width:1440px) {
     #myBtnScroll {
-        right: -100px; /* Modificado */
+        right: -100px;
     }
 }

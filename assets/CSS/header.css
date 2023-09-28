@@ -5,8 +5,8 @@
     top: 0;
     width: 100%;
     box-sizing: content-box;
+    z-index: 1;
 }
-
 
 .icon__dev {
     fill: var(--main-color);

@@ -1,0 +1,138 @@
+#section3__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.5rem 0 2rem;
+    height: auto;
+    background-color: var(--background2);
+}
+
+.project__title {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-transform: uppercase;
+    color: var(--mouse-hover);
+    margin-bottom: 2rem;
+}
+
+.project__box {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: var(--background);
+    border-radius: 10px;
+    padding: 0.625rem;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.image__container {
+    height: 15rem;
+    /* Defina a altura do contêiner da imagem */
+    overflow: hidden;
+    /* Isso vai cortar qualquer parte da imagem que ultrapasse o limite do contêiner */
+    border-radius: 10px;
+    /* Isso vai manter as bordas sempre com 10px */
+}
+
+.project__image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    /* Isso vai manter a proporção da imagem */
+    transition: transform 3s ease;
+    /* Isso vai fazer a imagem mover suavemente */
+    transform: translateY(0);
+    /* Isso vai iniciar a imagem na posição original */
+}
+
+.image__container:hover .project__image {
+    transform: translateY(-70%);
+    /* Isso vai mover a imagem 100% para cima quando o mouse passar sobre o contêiner da imagem */
+}
+
+.project__about_subtitle {
+    color: var(--main-color);
+    font-size: 1.125rem;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project__about_text {
+    width: 100%;
+    background-color: var(--background);
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.project__link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.project__link a {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.project__link:hover {
+    color: var(--mouse-hover);
+}
+
+.project__link_icon {
+    fill: var(--main-color);
+}
+
+@media screen and (min-width:768px) {
+    .project__box {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "image about"
+            "image link";
+    }
+
+    .image__container {
+        height: 20rem;
+        grid-area: image;
+    }
+
+    .image__container:hover .project__image {
+        transform: translateY(-70%);
+        /* Isso vai mover a imagem 100% para cima quando o mouse passar sobre o contêiner da imagem */
+    }
+
+    .project__about_text {
+        grid-area: about;
+    }
+
+    .project__link {
+        grid-area: link;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .image__container:hover .project__image {
+        transform: translateY(-80%);
+        /* Isso vai mover a imagem 100% para cima quando o mouse passar sobre o contêiner da imagem */
+    }
+}
