@@ -93,7 +93,8 @@
     font-weight: 500;
 }
 
-.project__link:hover {
+.project__link:hover,
+.project__link:focus {
     color: var(--mouse-hover);
 }
 
